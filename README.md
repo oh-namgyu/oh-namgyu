@@ -27,7 +27,24 @@
 |---|---|---|
 | [**pub-project-auditor**](https://github.com/oh-namgyu/pub-project-auditor/blob/main/README_KOR.md) | 노트북에 쌓인 모든 Git 저장소를 한 명령으로 AI 코드리뷰+보안감사 → 웹 대시보드 | Python · Claude Code CLI |
 | [**web-audit-kit**](https://github.com/oh-namgyu/web-audit-kit/blob/main/README_KOR.md) | 대상 URL 을 비침습적으로 점검해 보안·UX·아키텍처·기능 QA 4관점 리포트 생성 | Node · Playwright |
+| [**cross-verify-cli**](https://github.com/oh-namgyu/cross-verify-cli/blob/main/README_KOR.md) | 코드를 작성한 모델이 직접 합격시키지 못하게 — 결정적 게이트(시크릿/라이선스) + 저자와 다른 모델의 독립 검증 | Node · LLM-agnostic |
 
 ---
 
 > 모든 프로젝트는 영어 README·LICENSE·SECURITY 와 테스트를 갖춘 공개용으로 정리되어 있습니다.
+
+---
+
+## 🌐 In English
+
+Tools that fold AI coding agents into real development workflows — each shipped with English docs, tests, and CI. Korean intro (`README_KOR.md`) lives in every repo.
+
+| Project | One-liner | Stack |
+|---|---|---|
+| [**agent-workboard**](https://github.com/oh-namgyu/agent-workboard) | A claim board that stops multiple AI agents from clobbering each other in one codebase — a `PreToolUse` hook turns the convention into enforcement | Node · Express · SQLite |
+| [**claude-web-terminal**](https://github.com/oh-namgyu/claude-web-terminal) | Claude Code's Agent View as a browser card UI, with loopback + per-start token + Origin checks | Node · WebSocket · PTY |
+| [**codebase-context-mcp**](https://github.com/oh-namgyu/codebase-context-mcp) | Static analysis as MCP tools — hands an AI agent a map of the repo (import graph, routes, frontend↔backend edges) | Node · MCP · Babel |
+| [**codebase-dojo**](https://github.com/oh-namgyu/codebase-dojo) | A Socratic tutor for your codebase: asks *why* and never just tells you, so you stay the director not the operator | Claude Code skill |
+| [**pub-project-auditor**](https://github.com/oh-namgyu/pub-project-auditor) | Audit every Git repo on your laptop with one command — AI code review + security audit → dashboard | Python · Claude Code CLI |
+| [**web-audit-kit**](https://github.com/oh-namgyu/web-audit-kit) | Non-invasive site audit reporter across security, UX, architecture, and functional QA | Node · Playwright |
+| [**cross-verify-cli**](https://github.com/oh-namgyu/cross-verify-cli) | Pre-publish verification where the model that wrote the code is never the one that approves it — deterministic gate + an independent second-model review | Node · LLM-agnostic |

@@ -29,6 +29,14 @@
 | [**web-audit-kit**](https://github.com/oh-namgyu/web-audit-kit/blob/main/README_KOR.md) | 대상 URL 을 비침습적으로 점검해 보안·UX·아키텍처·기능 QA 4관점 리포트 생성 | Node · Playwright |
 | [**cross-verify-cli**](https://github.com/oh-namgyu/cross-verify-cli/blob/main/README_KOR.md) | 코드를 작성한 모델이 직접 합격시키지 못하게 — 결정적 게이트(시크릿/라이선스) + 저자와 다른 모델의 독립 검증 | Node · LLM-agnostic |
 
+## 🛠️ 앱·콘텐츠·토이
+
+| 프로젝트 | 한 줄 소개 | 스택 |
+|---|---|---|
+| [**taskdeck**](https://github.com/oh-namgyu/taskdeck) | AI 비서의 할일(칸반)을 분리한 자가호스팅 보드. 코어 칸반 + experimental Claude 러너(보안 하드닝) | Python · Flask |
+| [**songforge**](https://github.com/oh-namgyu/songforge) | 토픽 한 줄 → AI 작사 → ACE-Step 음악·보컬 → 후렴 탐지 → 9:16+16:9 영상 → 업로드 플랜까지 한 번에 | Python · CLI · ACE-Step |
+| [**prompt-rocket**](https://github.com/oh-namgyu/prompt-rocket) | 브라우저에서 복셀 로켓을 충전·발사해 날리는 작은 토이 | Three.js · WebGL |
+
 ---
 
 > 모든 프로젝트는 영어 README·LICENSE·SECURITY 와 테스트를 갖춘 공개용으로 정리되어 있습니다.
@@ -48,3 +56,6 @@ Tools that fold AI coding agents into real development workflows — each shippe
 | [**pub-project-auditor**](https://github.com/oh-namgyu/pub-project-auditor) | Audit every Git repo on your laptop with one command — AI code review + security audit → dashboard | Python · Claude Code CLI |
 | [**web-audit-kit**](https://github.com/oh-namgyu/web-audit-kit) | Non-invasive site audit reporter across security, UX, architecture, and functional QA | Node · Playwright |
 | [**cross-verify-cli**](https://github.com/oh-namgyu/cross-verify-cli) | Pre-publish verification where the model that wrote the code is never the one that approves it — deterministic gate + an independent second-model review | Node · LLM-agnostic |
+| [**taskdeck**](https://github.com/oh-namgyu/taskdeck) | A self-hosted Kanban board split out from an AI secretary — core kanban + an experimental, security-hardened Claude runner | Python · Flask |
+| [**songforge**](https://github.com/oh-namgyu/songforge) | One topic → AI lyrics → ACE-Step music/vocals → chorus detection → 9:16 + 16:9 video → upload plan | Python · CLI |
+| [**prompt-rocket**](https://github.com/oh-namgyu/prompt-rocket) | A tiny browser toy — charge and launch a voxel rocket and watch it fly | Three.js · WebGL |

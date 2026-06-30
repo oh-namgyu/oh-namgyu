@@ -36,6 +36,7 @@
 | [**taskdeck**](https://github.com/oh-namgyu/taskdeck) | AI 비서의 할일(칸반)을 분리한 자가호스팅 보드. 코어 칸반 + experimental Claude 러너(보안 하드닝) | Python · Flask |
 | [**songforge**](https://github.com/oh-namgyu/songforge) | 토픽 한 줄 → AI 작사 → ACE-Step 음악·보컬 → 후렴 탐지 → 9:16+16:9 영상 → 업로드 플랜까지 한 번에 | Python · CLI · ACE-Step |
 | [**prompt-rocket**](https://github.com/oh-namgyu/prompt-rocket) | 브라우저에서 복셀 로켓을 충전·발사해 날리는 작은 토이 | Three.js · WebGL |
+| [**kids-coloring**](https://github.com/oh-namgyu/kids-coloring) | 3~6세 유아용 터치 색칠놀이 PWA — 84개 도안·반짝이 펜·데칼코마니, 백엔드 없이 오프라인 동작 | Vite · TS · Canvas |
 
 ---
 
@@ -59,3 +60,4 @@ Tools that fold AI coding agents into real development workflows — each shippe
 | [**taskdeck**](https://github.com/oh-namgyu/taskdeck) | A self-hosted Kanban board split out from an AI secretary — core kanban + an experimental, security-hardened Claude runner | Python · Flask |
 | [**songforge**](https://github.com/oh-namgyu/songforge) | One topic → AI lyrics → ACE-Step music/vocals → chorus detection → 9:16 + 16:9 video → upload plan | Python · CLI |
 | [**prompt-rocket**](https://github.com/oh-namgyu/prompt-rocket) | A tiny browser toy — charge and launch a voxel rocket and watch it fly | Three.js · WebGL |
+| [**kids-coloring**](https://github.com/oh-namgyu/kids-coloring) | A touch coloring PWA for young kids (ages 3–6) — 84 outlines, sparkle pens, mirror mode; no backend, works offline | Vite · TS · Canvas |

@@ -13,6 +13,7 @@
 |---|---|---|
 | [**agent-workboard**](https://github.com/oh-namgyu/agent-workboard/blob/main/README_KOR.md) | 여러 AI 에이전트가 같은 코드베이스를 동시에 작업할 때 충돌을 막는 claim 보드. `PreToolUse` 훅으로 "규약"을 "강제"로 끌어올림 | Node · Express · SQLite |
 | [**claude-web-terminal**](https://github.com/oh-namgyu/claude-web-terminal/blob/main/README_KOR.md) | Claude Code 의 Agent View 를 브라우저 카드 UI 로. loopback+토큰+Origin 3중 보안 | Node · WebSocket · PTY |
+| [**cc-memory-index**](https://github.com/oh-namgyu/cc-memory-index) | Claude Code 자동 메모리의 `MEMORY.md` 를 각 메모리 파일 frontmatter 에서 생성 — 로드 상한(200줄·25KB) 안에 항상 맞추고, Claude 가 손으로 넣은 줄도 잃지 않음. 링크·경합·충돌에 안전한 쓰기 | Python · Claude Code 플러그인 |
 
 ## 🧭 코드베이스 이해·학습
 
@@ -53,6 +54,7 @@ Tools that fold AI coding agents into real development workflows — each shippe
 |---|---|---|
 | [**agent-workboard**](https://github.com/oh-namgyu/agent-workboard) | A claim board that stops multiple AI agents from clobbering each other in one codebase — a `PreToolUse` hook turns the convention into enforcement | Node · Express · SQLite |
 | [**claude-web-terminal**](https://github.com/oh-namgyu/claude-web-terminal) | Claude Code's Agent View as a browser card UI, with loopback + per-start token + Origin checks | Node · WebSocket · PTY |
+| [**cc-memory-index**](https://github.com/oh-namgyu/cc-memory-index) | Generates Claude Code's auto-memory `MEMORY.md` from each memory file's frontmatter — always within the load limit, without losing the lines Claude adds by hand; crash- and race-safe writes | Python · Claude Code plugin |
 | [**codebase-context-mcp**](https://github.com/oh-namgyu/codebase-context-mcp) | Static analysis as MCP tools — hands an AI agent a map of the repo (import graph, routes, frontend↔backend edges) | Node · MCP · Babel |
 | [**codebase-dojo**](https://github.com/oh-namgyu/codebase-dojo) | A Socratic tutor for your codebase: asks *why* and never just tells you, so you stay the director not the operator | Claude Code skill |
 | [**pub-project-auditor**](https://github.com/oh-namgyu/pub-project-auditor) | Audit every Git repo on your laptop with one command — AI code review + security audit → dashboard | Python · Claude Code CLI |
